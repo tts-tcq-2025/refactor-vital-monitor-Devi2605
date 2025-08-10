@@ -4,6 +4,8 @@
 #include <thread>
 #include <chrono>
 #include <iostream>
+#include "duplicate_function.h"
+
 using std::cout, std::flush, std::this_thread::sleep_for, std::chrono::seconds;
 
 // void duplicate(){
